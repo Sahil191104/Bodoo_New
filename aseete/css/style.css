@@ -27,6 +27,14 @@ p {
     color: #FFFFFF;
 }
 
+.non-word {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #C8191C;
+}
+
 .btn-buto {
     background: #C8191C;
     width: 300px;
@@ -126,10 +134,69 @@ header nav ul li a {
 
 /* ****************************** */
 
+/* *******Discover section******* */
+
+#discover {
+    background: linear-gradient(0deg, #000000 16.49%, #C8191C 263.79%);
+    padding: 24.5rem 0 20rem 0;
+}
+
+#discover .discover-symbole>* {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#discover h3 {
+    padding-top: 2rem;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 73px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.discover-about {
+    padding-top: 20rem;
+}
+
+.discover-about p {
+    padding-top: 10rem;
+    max-width: 541px;
+}
+
+.discover-about .border-end {
+    height: 506px;
+}
+
+.discover-ev {
+    padding-left: 10rem;
+}
+
+.discover-ev h2 {
+    padding-top: 1.8rem;
+    width: 574px;
+    height: 569px;
+    font-weight: 700;
+    font-size: 84px;
+    line-height: 114px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 10.5rem;
+}
+
+.discover-ev a {
+    text-align: center;
+}
+
+/* ****************************** */
+
 @media screen and (min-width: 1650px) {
     .container {
         max-width: 150rem !important;
     }
+
     .hero-data h1 {
         font-size: 110px;
         line-height: 140px;
