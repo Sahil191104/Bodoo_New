@@ -166,18 +166,17 @@ header nav ul li a {
     max-width: 541px;
 }
 
-.discover-about .border-end {
-    height: 506px;
+.discover-about .col-md-7 .border-right1 {
+    border-right: 2px solid #fff !important;
+    padding-right: 140px;
 }
 
 .discover-ev {
-    padding-left: 10rem;
+    padding-left: 2rem;
 }
 
 .discover-ev h2 {
     padding-top: 1.8rem;
-    width: 574px;
-    height: 569px;
     font-weight: 700;
     font-size: 84px;
     line-height: 114px;
@@ -188,6 +187,38 @@ header nav ul li a {
 
 .discover-ev a {
     text-align: center;
+}
+
+/* ****************************** */
+
+/* ********Super-Section******** */
+
+#super {
+    background: linear-gradient(180deg, #000000 10.37%, #C8191C 231.27%);
+    padding-bottom: 20rem;
+}
+
+.super-data h3 {
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 191px;
+    color: #FFFFFF;
+    padding-right: 22rem;
+    padding-bottom: 11.5rem;
+}
+
+.super-data-image h3 {
+    padding-top: 10rem;
+    padding-left: 11rem;
+    padding-right: 0;
+}
+
+.super-image {
+    padding-left: 18rem;
+}
+
+.super-image .image-supe {
+    width: 100%;
 }
 
 /* ****************************** */
