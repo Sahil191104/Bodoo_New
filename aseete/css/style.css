@@ -27,6 +27,14 @@ p {
     color: #FFFFFF;
 }
 
+h2 {
+    font-weight: 700;
+    font-size: 84px;
+    line-height: 114px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
 .non-word {
     font-weight: 700;
     font-size: 24px;
@@ -48,7 +56,7 @@ p {
 }
 
 .container {
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .img {
@@ -141,7 +149,8 @@ header nav ul li a {
     padding: 24.5rem 0 20rem 0;
 }
 
-#discover .discover-symbole>* {
+#discover .discover-symbole>*,
+.choose-symbole>* {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -177,11 +186,6 @@ header nav ul li a {
 
 .discover-ev h2 {
     padding-top: 1.8rem;
-    font-weight: 700;
-    font-size: 84px;
-    line-height: 114px;
-    text-transform: uppercase;
-    color: #FFFFFF;
     padding-bottom: 10.5rem;
 }
 
@@ -195,7 +199,6 @@ header nav ul li a {
 
 #super {
     background: linear-gradient(180deg, #000000 10.37%, #C8191C 231.27%);
-    padding-bottom: 20rem;
 }
 
 .super-data h3 {
@@ -223,13 +226,97 @@ header nav ul li a {
 
 /* ****************************** */
 
+/* *******Analysis-Section******* */
+
+#analysis {
+    background: linear-gradient(0deg, #000000 16.49%, #C8191C 274.79%);
+    padding-top: 30.6rem;
+}
+
+.analysis-data-main {
+    text-align: center;
+}
+
+.analysis-data-main h2 {
+    font-weight: 700;
+    font-size: 88px;
+    line-height: 114px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 2rem
+}
+
+.analysis-image-data {
+    margin: 8rem 8rem;
+}
+
+.analysis-data {
+    padding: 50px 60px;
+}
+
+.analysis-image-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 651px;
+}
+
+.analysis-image-main h4 {
+    padding-top: 5rem;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 2rem;
+}
+
+/* ****************************** */
+
+/* ********Choose-Section******** */
+
+#choose {
+    background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
+    padding-top: 12.5rem;
+    padding-bottom: 20rem;
+}
+
+.choose-data {
+    text-align: center;
+}
+
+.choose-symbole .choose-symbole-data h5 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 500px;
+}
+
+.choose-symbole {
+    text-align: center;
+}
+
+.choose-symbole .choose-symbole-data p {
+    width: 458px;
+}
+
+.choose-data h2 {
+    padding-bottom: 17.2rem;
+}
+
+/* ****************************** */
+
 @media screen and (min-width: 1650px) {
     .container {
         max-width: 150rem !important;
     }
 
     .hero-data h1 {
-        font-size: 110px;
+        font-size: 130px;
         line-height: 140px;
     }
 }
