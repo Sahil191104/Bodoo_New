@@ -35,6 +35,14 @@ h2 {
     color: #FFFFFF;
 }
 
+h3 {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 73px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
 .non-word {
     font-weight: 700;
     font-size: 24px;
@@ -158,12 +166,7 @@ header nav ul li a {
 
 #discover h3 {
     padding-top: 2rem;
-    font-weight: 700;
-    font-size: 54px;
-    line-height: 73px;
     text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
 }
 
 .discover-about {
@@ -318,6 +321,26 @@ header nav ul li a {
 .Science-data h2 {
     max-width: 105.5rem;
     margin: 0 auto;
+}
+
+#Scinece .Scinece-image {
+    padding: 2.4rem 0 2.4rem 6rem;
+}
+
+#Scinece .row > *{
+    display: flex;
+}
+
+.justify-content-start {
+    justify-content: flex-start !important;
+    gap: 80px;
+    padding-top: 10rem;
+}
+
+.justify-content-end {
+    justify-content: flex-end !important;
+    gap: 80px;
+    padding-top: 10rem;
 }
 
 /* ****************************** */
