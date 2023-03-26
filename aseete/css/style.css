@@ -230,45 +230,39 @@ header nav ul li a {
 
 #analysis {
     background: linear-gradient(0deg, #000000 16.49%, #C8191C 274.79%);
-    padding-top: 30.6rem;
+    padding-top: 20rem;
 }
 
-.analysis-data-main {
+.analysis-main-title {
     text-align: center;
 }
 
-.analysis-data-main h2 {
-    font-weight: 700;
-    font-size: 88px;
-    line-height: 114px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    padding-bottom: 2rem
+.analysis-main-title h2 {
+    padding-bottom: 2.5rem;
+    max-width: 1500px;
+    margin: 0 auto;
 }
 
-.analysis-image-data {
-    margin: 8rem 8rem;
-}
-
-.analysis-data {
-    padding: 50px 60px;
-}
-
-.analysis-image-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 651px;
-}
-
-.analysis-image-main h4 {
+.analysis-box h4 {
     padding-top: 5rem;
     font-weight: 700;
     font-size: 44px;
     line-height: 60px;
     text-transform: uppercase;
     color: #FFFFFF;
-    padding-bottom: 2rem;
+}
+
+#analysis .analysis-box {
+    border: 2px solid #FFFFFF;
+    padding: 5rem 6rem;
+}
+
+#analysis .row>*:nth-child(odd) {
+    padding: 7.5rem 7.5rem 7.5rem 4.2rem;
+}
+
+#analysis .row>*:nth-child(even) {
+    padding: 7.5rem 4.2rem 7.5rem 7.5rem;
 }
 
 /* ****************************** */
@@ -306,6 +300,24 @@ header nav ul li a {
 
 .choose-data h2 {
     padding-bottom: 17.2rem;
+}
+
+/* ****************************** */
+
+/* *******Science-Section******** */
+
+#Science {
+    background: linear-gradient(0deg, #000000 16.49%, #C8191C
+    274.79%);
+}
+
+.Science-data {
+    text-align: center;
+}
+
+.Science-data h2 {
+    max-width: 105.5rem;
+    margin: 0 auto;
 }
 
 /* ****************************** */
