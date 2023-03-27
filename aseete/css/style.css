@@ -158,7 +158,8 @@ header nav ul li a {
 }
 
 #discover .discover-symbole>*,
-.choose-symbole>* {
+.choose-symbole>*,
+.Science-Symbole-data>* {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -310,11 +311,12 @@ header nav ul li a {
 /* *******Science-Section******** */
 
 #Science {
-    background: linear-gradient(0deg, #000000 16.49%, #C8191C
-    274.79%);
+    background: linear-gradient(0deg, #000000 16.49%, #C8191C 274.79%);
+    padding-bottom: 20rem;
 }
 
-.Science-data {
+.Science-data,
+.Science-button {
     text-align: center;
 }
 
@@ -323,24 +325,79 @@ header nav ul li a {
     margin: 0 auto;
 }
 
-#Scinece .Scinece-image {
-    padding: 2.4rem 0 2.4rem 6rem;
+#Science .Scinece-image {
+    padding: 2.4rem 0 2.4rem 3rem;
 }
 
-#Scinece .row > *{
+#Science .Scinece-image-data>* {
     display: flex;
 }
 
 .justify-content-start {
     justify-content: flex-start !important;
-    gap: 80px;
+    gap: 7rem;
     padding-top: 10rem;
 }
 
 .justify-content-end {
     justify-content: flex-end !important;
-    gap: 80px;
+    gap: 7rem;
     padding-top: 10rem;
+}
+
+#Science .Science-button {
+    padding-top: 10rem;
+    padding-bottom: 20rem;
+}
+
+#Science .Science-Symbole .Science-Symbole-data h4 {
+    font-size: 3.2rem;
+    padding-bottom: 40px;
+}
+
+#Science .Science-Symbole .Science-Symbole-data h3 {
+    font-size: 10rem;
+}
+
+/* ****************************** */
+
+/* *****Promotion-Section******** */
+
+#promotion {
+    background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
+}
+
+#promotion h2 {
+    max-width: 452px;
+}
+
+#promotion .promotion-background {
+    background-color: transparent;
+    color: #fff;
+    width: 435px;
+    height: 100px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border: 2px solid #FFFFFF;
+}
+
+#promotion .promotion-font {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 3rem;
+}
+
+#promotion input::placeholder {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
 }
 
 /* ****************************** */
