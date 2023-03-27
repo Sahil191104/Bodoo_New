@@ -280,7 +280,7 @@
                         </div>
                     </div>
                     <div class="col-md-7">
-                        <div class="row">
+                        <div class="row promotion-main">
                             <div class="col-md-6">
                                 <form action="">
                                     <!-- 1 -->
@@ -297,9 +297,12 @@
                                         placeholder="+44 3737 838xxx">
                                     <!-- 3 -->
                                     <label for="exampleInputEmail1" class="form-label promotion-font">SERVICES*</label>
-                                    <input type="email" class="form-control promotion-background"
-                                        id="exampleInputEmail1" aria-describedby="emailHelp"
-                                        placeholder="Choose services">
+                                    <select name="Choose services">
+                                        <!-- <input type="email" class="form-control promotion-background"
+                                            id="exampleInputEmail1" aria-describedby="emailHelp"
+                                            placeholder="Choose services"> -->
+                                        <option value="0">Choose services</option>
+                                    </select>
                                 </form>
                             </div>
                             <div class="col-md-6">
@@ -310,20 +313,33 @@
                                         id="exampleInputEmail1" aria-describedby="emailHelp"
                                         placeholder="Enter Your Last Name">
                                     <!-- 2 -->
-                                    <label for="exampleInputEmail1" class="form-label promotion-font">YOUR EMAIL*</label>
+                                    <label for="exampleInputEmail1" class="form-label promotion-font">YOUR
+                                        EMAIL*</label>
                                     <input type="email" class="form-control promotion-background"
                                         id="exampleInputEmail1" aria-describedby="emailHelp"
                                         placeholder="youremail@domain.com">
                                     <!-- 3 -->
                                     <label for="exampleInputEmail1" class="form-label promotion-font">DATE*</label>
-                                    <input type="email" class="form-control promotion-background"
-                                        id="exampleInputEmail1" aria-describedby="emailHelp"
-                                        placeholder="Choose Date">
-                                        <option value=""></option>
+                                    <select name="Choose Date">
+                                        <option value="0">Choose Date</option>
+                                    </select>
+                                    <!-- <input type="email" class="form-control promotion-background"
+                                        id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Choose Date"> -->
                                 </form>
                             </div>
                         </div>
+                        <button type="submit" class="btn btn-primary btn-buto btn-buto">BookNow</button>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="become">
+            <div class="container">
+                <div class="become-data">
+                    <h2>LET’S BECOME MEMBERSHIP</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur. Pellentesque nascetur sed tellus ut vehicula eu consectetur elit at. Nulla erat nunc nisl dui sed cras semper vitae. Tempor odio ullamcorper non sed dignissim eu.</p>
+                    <a href="#" class="btn-buto">Get Started</a>
                 </div>
             </div>
         </section>
