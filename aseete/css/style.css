@@ -411,6 +411,10 @@ select {
     color: #FFFFFF;
 }
 
+#promotion a {
+    text-align: center;
+}
+
 /* ****************************** */
 
 /* *********BECOME-Section********** */
