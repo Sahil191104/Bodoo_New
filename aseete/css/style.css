@@ -320,7 +320,8 @@ header nav ul li a {
 .Science-data,
 .Science-button,
 .become-data,
-.Membership-data {
+.Membership-data,
+.blog-data {
     text-align: center;
 }
 
@@ -478,15 +479,15 @@ select {
     padding-bottom: 3rem;
 }
 
-#Membership .Membership-main-data{
+#Membership .Membership-main-data {
     padding: 60px 77px;
 }
 
-#Membership .Membership-main-data a{
+#Membership .Membership-main-data a {
     text-align: center;
 }
 
-#Membership .Membership-main-data ul{
+#Membership .Membership-main-data ul {
     padding-bottom: 6rem;
     padding-top: 3rem;
     padding-left: 0;
@@ -498,7 +499,7 @@ select {
     padding-bottom: 2rem;
 }
 
-#Membership .Membership-main-data ul li p{
+#Membership .Membership-main-data ul li p {
     padding-left: 2rem;
 }
 
@@ -528,6 +529,224 @@ select {
 
 #Membership .row>*:nth-child(3) {
     padding: 8rem 0 0 9.9rem;
+}
+
+/* ****************************** */
+
+/* ***************** */
+
+#happy {
+    background: linear-gradient(180deg, #000000 16.49%, #C8191C 274.79%);
+}
+
+#happy h2 {
+    text-align: center;
+    max-width: 144.6rem;
+    margin: 0 auto;
+}
+
+#happy .happy-data-main {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#happy .happy-data-main h2 {
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 191px;
+    padding-bottom: 10rem;
+}
+
+#happy .happy-data-main img {
+    width: 20px;
+    height: 300px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 40rem;
+}
+
+.happy-slider .happy-data h5 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: start;
+    color: #FFFFFF;
+    padding-top: 1.5rem;
+}
+
+.happy-slider .happy-data {
+    padding-top: 10.9rem;
+    max-width: 47.6rem;
+}
+
+.happy-slider .happy-main {
+    display: inline-block;
+    margin-left: 17rem;
+    padding-top: 15rem;
+}
+
+#happy .swiper-slide-sections {
+    position: relative;
+    margin-bottom: -40rem;
+}
+
+#happy .swiper-slide-sections .swiper-button-prev1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    text-align: center;
+    cursor: pointer;
+}
+
+#happy .swiper-slide-sections .swiper-button-next1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 9;
+    text-align: center;
+    cursor: pointer;
+}
+
+#happy .swiper-slide-sections .swiper-button-next1::after,
+#happy .swiper-slide-sections .swiper-button-prev1::after {
+    font-size: 3rem;
+    color: #FFFFFF;
+}
+
+.swiper-slide-sections .swiper-button-prev1::after {
+    content: 'prev';
+    font-family: swiper-icons;
+    text-transform: none !important;
+    letter-spacing: 0;
+    font-variant: initial;
+    line-height: 1;
+}
+
+.swiper-slide-sections .swiper-button-next1::after {
+    content: 'next';
+    font-family: swiper-icons;
+    text-transform: none !important;
+    letter-spacing: 0;
+    font-variant: initial;
+    line-height: 1;
+}
+
+/* ****************************** */
+
+/* ********BLOG-Section********** */
+
+#blog {
+    padding-top: 20rem;
+    background: linear-gradient(0deg, #000000 16.49%, #C8191C 274.79%);
+}
+
+#blog .blog-data h2 {
+    padding-bottom: 8rem;
+}
+
+#blog .blog-main {
+    margin-right: 50px;
+}
+
+#blog .blog-image {
+    width: 361px;
+}
+
+#blog .blog-image h6 {
+    padding-top: 6rem;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#blog .blog-image p {
+    padding-top: 2rem;
+}
+
+#blog .blog-image span {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #0085FF;
+}
+
+/* ****************************** */
+
+/* ********BOODOO-Section******** */
+
+#BOODOO {
+    padding-top: 20rem;
+    padding-bottom: 15.1rem;
+    background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
+}
+
+#BOODOO .BOODOO-border {
+    border-top: 2px solid #FFFFFF;
+    margin: 0 auto;
+    padding-bottom: 8rem;
+}
+
+#BOODOO .BOODOO-border1 .BOODOO-border-main {
+    border-top: 1px solid #FFFFFF;
+    margin: 0 auto;
+}
+
+#BOODOO .BOODOO-main-data .BOODOO-footer img {
+    width: 171px;
+    height: 67.12px;
+}
+
+#BOODOO .BOODOO-main-data .BOODOO-footer p {
+    padding-top: 2rem;
+}
+
+#BOODOO .BOODOO-main-data .BOODOO-SERVICES h4,
+.BOODOO-LINK h4,
+.BOODOO-CONTACT h4,
+.BOODOO-MAPS h4 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#BOODOO .BOODOO-main-data .BOODOO-SERVICES ul,
+.BOODOO-LINK ul,
+.BOODOO-CONTACT ul {
+    padding-left: 0;
+}
+
+#BOODOO .BOODOO-main-data .BOODOO-SERVICES ul li a,
+.BOODOO-LINK ul li a,
+.BOODOO-CONTACT ul li a,
+.BOODOO-border1 ul li a {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+#BOODOO .BOODOO-main-data .BOODOO-SERVICES ul li,
+.BOODOO-LINK ul li,
+.BOODOO-CONTACT ul li {
+    padding-top: 2rem;
+}
+
+.BOODOO-CONTACT ul li a i {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.BOODOO-border1 ul li {
+    padding-top: 8rem;
+    padding-bottom: 4.5rem;
+    text-align: center;
 }
 
 /* ****************************** */
