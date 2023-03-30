@@ -536,6 +536,7 @@ select {
 /* ***************** */
 
 #happy {
+    position: relative;
     background: linear-gradient(180deg, #000000 16.49%, #C8191C 274.79%);
 }
 
@@ -575,9 +576,22 @@ select {
 }
 
 .happy-slider .happy-data {
+    position: relative;
     padding-top: 10.9rem;
     max-width: 47.6rem;
 }
+
+.happy-slider .happy-data::before {
+    content: '';
+    background: url(../images/“.png);
+    inset: 0;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 20% auto;
+    background-position: center left;
+    top: -40px;
+}
+
 
 .happy-slider .happy-main {
     display: inline-block;
@@ -705,6 +719,14 @@ select {
     padding-top: 2rem;
 }
 
+#BOODOO .BOODOO-main-data .BOODOO-SERVICES a:hover,
+.BOODOO-LINK a:hover,
+.BOODOO-CONTACT a:hover,
+.BOODOO-CONTACT a i:hover,
+.BOODOO-MAPS a{
+    color: #C8191C;
+}
+
 #BOODOO .BOODOO-main-data .BOODOO-SERVICES h4,
 .BOODOO-LINK h4,
 .BOODOO-CONTACT h4,
@@ -741,6 +763,7 @@ select {
 .BOODOO-CONTACT ul li a i {
     font-size: 2rem;
     color: #fff;
+    padding-right: 2rem;
 }
 
 .BOODOO-border1 ul li {
@@ -748,8 +771,6 @@ select {
     padding-bottom: 4.5rem;
     text-align: center;
 }
-
-/* ****************************** */
 
 @media screen and (min-width: 1650px) {
     .container {
