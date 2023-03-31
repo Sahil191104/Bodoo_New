@@ -263,6 +263,14 @@ header nav ul li a {
     padding: 5rem 6rem;
 }
 
+#analysis .analysis-box img {
+    width: 100%;
+}
+
+#analysis .analysis-box p {
+    width: 509px;
+}
+
 #analysis .row>*:nth-child(odd) {
     padding: 7.5rem 7.5rem 7.5rem 4.2rem;
 }
@@ -385,14 +393,12 @@ header nav ul li a {
 select {
     background-color: transparent;
     color: #fff;
-    width: 435px;
-    height: 100px;
+    width: 90%;
     font-weight: 400;
     font-size: 24px;
     line-height: 33px;
-    padding-left: 3rem;
-    padding-right: 3rem;
     margin-bottom: 8rem;
+    padding: 3.35rem 9.6rem 3.35rem 3rem;
     border: 2px solid #FFFFFF;
 }
 
@@ -421,7 +427,7 @@ select {
 /* *********BECOME-Section********** */
 
 #become {
-    padding-top: 6rem;
+    padding-top: 10.5rem;
     padding-bottom: 12rem;
     background: linear-gradient(180deg, #514242 -74.63%, #2E0A0A 38.7%, #000000 151.34%);
     position: relative;
@@ -446,7 +452,7 @@ select {
     position: absolute;
     opacity: 0.1;
     background-repeat: no-repeat;
-    background-size: 160.3rm auto;
+    background-size: 160.3rem auto;
     background-position: center center;
 }
 
@@ -563,7 +569,16 @@ select {
     height: 300px;
     text-align: center;
     color: #fff;
-    margin-bottom: 40rem;
+    margin-bottom: 44rem;
+}
+
+#happy .happy-main .happy-img{
+    padding-left: 60px;
+}
+
+.happy-slider .happy-data p {
+    padding-top: 34px;
+    padding-left: 27px;
 }
 
 .happy-slider .happy-data h5 {
@@ -573,17 +588,18 @@ select {
     text-align: start;
     color: #FFFFFF;
     padding-top: 1.5rem;
+    padding-left: 27px;
 }
 
 .happy-slider .happy-data {
     position: relative;
-    padding-top: 10.9rem;
+    padding-top: 7.9rem;
     max-width: 47.6rem;
 }
 
-.happy-slider .happy-data::before {
+.happy-data::before {
     content: '';
-    background: url(../images/“.png);
+    background: url(../image/“.png);
     inset: 0;
     position: absolute;
     background-repeat: no-repeat;
@@ -594,9 +610,11 @@ select {
 
 
 .happy-slider .happy-main {
-    display: inline-block;
-    margin-left: 17rem;
-    padding-top: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* display: inline-block; */
+    padding-top: 8rem;
 }
 
 #happy .swiper-slide-sections {
@@ -660,7 +678,9 @@ select {
 }
 
 #blog .blog-main {
-    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #blog .blog-image {
@@ -717,6 +737,7 @@ select {
 
 #BOODOO .BOODOO-main-data .BOODOO-footer p {
     padding-top: 2rem;
+    max-width: 273.75px;
 }
 
 #BOODOO .BOODOO-main-data .BOODOO-SERVICES a:hover,
