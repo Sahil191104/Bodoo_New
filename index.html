@@ -8,14 +8,18 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./aseete/css/reset.css">.
+    <link rel="stylesheet" href="./aseete/css/style.css">
+    <script src="./aseete/js/modernizr.js"></script>
     <link rel="stylesheet" href="./aseete/css/bootstrap.min.css">
     <link rel="stylesheet" href="./aseete/css/fonts.css">
-    <link rel="stylesheet" href="./aseete/css/style.css">
+    <link rel="stylesheet" href="./aseete/css/style1.css">
     <title>Document</title>
 
     <style>
-        .fixedtop{
+        .fixedtop {
             position: fixed;
             background-color: black;
         }
@@ -43,13 +47,23 @@
 
     <main>
         <section id="hero">
-            <div class="container">
-                <div class="hero-data">
-                    <h1>YOUR PATH TO UNDERSTANDING <span>ZODIAC</span></h1>
-                    <p>Lorem ipsum dolor sit amet consectetur. Pellentesque nascetur sed tellus ut vehicula eu
-                        consectetur elit at. Nulla erat nunc nisl dui sed cras semper vitae. odio ullamcorper non sed
-                        dignissim eu.</p>
-                    <a href="#" class="btn-buto">Get Started</a>
+            <div id="particles-js">
+                <div class="container">
+                    <div class="hero-data">
+                        <h1 class="cd-headline rotate-1 hero-data-h1">
+                            <span>YOUR PATH TO UNDERSTANDING</span>
+                            <span class="cd-words-wrapper">
+                                <b class="is-visible">ZODIAC</b>
+                                <b>sushi</b>
+                                <b>steak</b>
+                            </span>
+                        </h1>
+                        <p>Lorem ipsum dolor sit amet consectetur. Pellentesque nascetur sed tellus ut vehicula eu
+                            consectetur elit at. Nulla erat nunc nisl dui sed cras semper vitae. odio ullamcorper non
+                            sed
+                            dignissim eu.</p>
+                        <a href="#" class="btn-buto">Get Started</a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -646,21 +660,30 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"
         integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="./aseete/js/particles.min.js"></script>
+    <script src="./aseete/js/app.js"></script>
+    <script src="https://unpkg.com/kursor"></script>
+    <script>
+        new kursor({
+            type: 4,
+            color: '#fff',
+        })
+    </script>
+    <script src="./aseete/js/main.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                var x = $(this).scrollTop();
+                console.log(x);
 
-        <script>
-            $(document).ready(function () {
-                $(window).scroll(function () {
-                    var x = $(this).scrollTop();
-                    console.log(x);
-    
-                    if (x > 100) {
-                        $("header").addClass("fixedtop")
-                    } else {
-                        $("header").removeClass("fixedtop")
-                    }
-                })
-            });
-        </script>
+                if (x > 100) {
+                    $("header").addClass("fixedtop")
+                } else {
+                    $("header").removeClass("fixedtop")
+                }
+            })
+        });
+    </script>
 
     <script>
         var swiper1 = new Swiper(".happy-slider", {
