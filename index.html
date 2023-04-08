@@ -16,17 +16,41 @@
     <link rel="stylesheet" href="./aseete/css/bootstrap.min.css">
     <link rel="stylesheet" href="./aseete/css/fonts.css">
     <link rel="stylesheet" href="./aseete/css/style1.css">
-    <title>Document</title>
+    <title>Booboo</title>
 
     <style>
         .fixedtop {
             position: fixed;
             background-color: black;
         }
+        .top {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            bottom: 0;
+            right: 0;
+            margin: 20px;
+            position: fixed;
+            background-color: #C8191C;
+            display: none;
+            cursor: pointer;
+            text-align: center;
+        }
+        .top i {
+            padding: 19px;
+            font-size: 20px;
+            color: #fff;
+        }
+        .show {
+            display: block;
+        }
     </style>
 </head>
 
 <body>
+    <div class="top">
+        <i class="fa-solid fa-angles-up"></i>
+    </div>
     <header>
         <div class="container">
             <a href="" class="logo">
@@ -54,8 +78,8 @@
                             <span>YOUR PATH TO UNDERSTANDING</span>
                             <span class="cd-words-wrapper">
                                 <b class="is-visible">ZODIAC</b>
-                                <b>sushi</b>
-                                <b>steak</b>
+                                <b>ARIES</b>
+                                <b>TAURUS</b>
                             </span>
                         </h1>
                         <p>Lorem ipsum dolor sit amet consectetur. Pellentesque nascetur sed tellus ut vehicula eu
@@ -234,7 +258,7 @@
                     </div>
                     <div class="col-md-3">
                         <img src="./aseete/image/gemini-horoscope-astrology-zodiac.png" alt="">
-                        <div class="Scinece-<i class=" fa-sharp fa-light fa-phone"></i>mage">
+                        <div class="Scinece-image">
                             <h3>GEMINI</h3>
                             <p>Lorem ipsum dolor sit amet consectetur.</p>
                         </div>
@@ -663,6 +687,26 @@
     <script src="./aseete/js/particles.min.js"></script>
     <script src="./aseete/js/app.js"></script>
     <script src="https://unpkg.com/kursor"></script>
+    
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                console.log($(window).scrollTop());
+    
+                if ($(window).scrollTop() > 100) {
+                        $(".top").addClass("show")
+                } else {
+                        $(".top").removeClass("show")
+                }
+            })
+
+            $(".top").click(function() {
+                $("html, body").animate({
+                    scrollTop:0
+                })
+            })
+        });
+    </script>
     <script>
         new kursor({
             type: 4,
